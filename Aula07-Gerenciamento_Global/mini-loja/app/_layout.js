@@ -24,7 +24,7 @@ export default function Layout() {
             options={{
             title: '🛍️ Produtos',
             tabBarLabel: 'Produtos',
-            tabBarIcon: ({ color }) => <Ionicons name="home" size={24} color={color} />,
+            tabBarIcon: ({ color }) => <Ionicons name="bag-handle" color= {color} size={24} />,
             }}
         />
         <Tabs.Screen
@@ -32,7 +32,7 @@ export default function Layout() {
             options={{
             title: '🛒 Seu Carrinho',
             tabBarLabel: 'Carrinho',
-            tabBarIcon: ({ color }) => <Ionicons name="person" size={24} color={color} />,
+            tabBarIcon: ({ color }) => <Ionicons name="cart" color= {color} size={24} />,
             }}
         />
         </Tabs>
